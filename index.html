@@ -3,62 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>연구실 홈페이지 | Lab Name</title>
+    <title>Eco friendly fuel-cell system laboratory</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: 'Pretendard', sans-serif; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body class="bg-slate-50 text-slate-900">
 
-    <nav class="bg-white shadow-md sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="text-xl font-bold text-blue-800">Energy & Thermal Lab</h1>
-            <div class="space-x-6">
-                <a href="#about" class="hover:text-blue-600">About</a>
-                <a href="#research" class="hover:text-blue-600">Research</a>
-                <a href="#publications" class="hover:text-blue-600">Publications</a>
-                <a href="#members" class="hover:text-blue-600">Members</a>
+    <nav class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-emerald-700 tracking-tight">EFSL</h1>
+            <div class="hidden md:flex space-x-8 font-medium text-slate-600">
+                <a href="#about" class="hover:text-emerald-600 transition">About</a>
+                <a href="#research" class="hover:text-emerald-600 transition">Research</a>
+                <a href="#publications" class="hover:text-emerald-600 transition">Publications</a>
+                <a href="#members" class="hover:text-emerald-600 transition">Members</a>
             </div>
         </div>
     </nav>
 
-    <header id="about" class="bg-blue-900 text-white py-20 text-center">
-        <h2 class="text-4xl font-extrabold mb-4">Smart Thermal Management & CFD Analysis</h2>
-        <p class="text-xl text-blue-200">배터리 안전과 효율을 위한 혁신적인 열관리 솔루션을 연구합니다.</p>
+    <header id="about" class="bg-gradient-to-br from-emerald-800 to-teal-900 text-white py-24 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
+                Eco friendly fuel-cell system laboratory
+            </h2>
+            <p class="text-xl text-emerald-100 font-light max-w-2xl mx-auto">
+                Advancing the future of sustainable energy through innovative fuel-cell system design and optimization.
+            </p>
+        </div>
     </header>
 
-    <section id="research" class="max-w-6xl mx-auto py-16 px-4">
-        <h3 class="text-3xl font-bold mb-10 border-b-2 border-blue-800 pb-2">Research Areas</h3>
-        <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-white p-6 rounded-lg shadow">
-                <h4 class="text-xl font-bold mb-3 text-blue-700">BTMS (Battery Thermal Management)</h4>
-                <p class="text-gray-600">전기차 배터리의 성능 최적화와 열폭주 방지를 위한 냉각 시스템 및 상변화 물질(PCM) 활용 연구를 수행합니다.</p>
+    <section id="research" class="max-w-6xl mx-auto py-20 px-6">
+        <h3 class="text-3xl font-bold mb-12 text-slate-800 flex items-center">
+            <span class="w-8 h-1 bg-emerald-500 mr-4"></span>Research Areas
+        </h3>
+        <div class="grid md:grid-cols-2 gap-10">
+            <div class="group p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <h4 class="text-2xl font-bold mb-4 group-hover:text-emerald-600 transition">Fuel Cell Systems</h4>
+                <p class="text-slate-600 leading-relaxed">친환경 연료전지 시스템의 효율 향상과 스택 내구성 확보를 위한 핵심 메커니즘을 연구합니다.</p>
             </div>
-            <div class="bg-white p-6 rounded-lg shadow">
-                <h4 class="text-xl font-bold mb-3 text-blue-700">Computational Fluid Dynamics (CFD)</h4>
-                <p class="text-gray-600">복잡한 유체 흐름과 열전달 현상을 수치 해석적으로 모델링하여 최적의 설계를 제안합니다.</p>
+            <div class="group p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                </div>
+                <h4 class="text-2xl font-bold mb-4 group-hover:text-blue-600 transition">System Optimization</h4>
+                <p class="text-slate-600 leading-relaxed">CFD 기반 수치해석을 통해 시스템 내 유동 및 열전달 특성을 분석하고 최적의 설계를 도출합니다.</p>
             </div>
         </div>
     </section>
 
-    <section id="publications" class="bg-gray-100 py-16">
-        <div class="max-w-6xl mx-auto px-4">
-            <h3 class="text-3xl font-bold mb-10 border-b-2 border-blue-800 pb-2">Selected Publications</h3>
-            <ul class="space-y-4">
-                <li class="bg-white p-4 rounded shadow-sm">
-                    <span class="font-bold text-blue-600">[2024]</span> <strong>"Numerical study on PCM-based cooling for high-power batteries"</strong>, Journal of Heat Transfer.
-                </li>
-                <li class="bg-white p-4 rounded shadow-sm">
-                    <span class="font-bold text-blue-600">[2023]</span> <strong>"CFD analysis of liquid cooling plates for EV applications"</strong>, International Journal of Energy Research.
-                </li>
-            </ul>
+    <section id="publications" class="bg-slate-100 py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-3xl font-bold mb-12 text-slate-800">Key Publications</h3>
+            <div class="space-y-4">
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:translate-x-1 transition cursor-default">
+                    <p class="text-sm text-emerald-600 font-bold mb-1">2024</p>
+                    <p class="text-lg font-medium">"Performance analysis of eco-friendly fuel cell stack for automotive applications"</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:translate-x-1 transition cursor-default">
+                    <p class="text-sm text-emerald-600 font-bold mb-1">2023</p>
+                    <p class="text-lg font-medium">"Optimal thermal management strategy for hydrogen fuel cell systems"</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer class="bg-gray-800 text-gray-400 py-8 text-center">
-        <p>&copy; 2026 Energy & Thermal Management Lab. All rights reserved.</p>
-    </footer>
-
-</body>
-</html>
+    <footer class="bg-slate-900 text-slate-400 py-12 px-6 text-center">
+        <p class="font-bold text-white mb-2">EFSL: Eco friendly fuel-cell system laboratory</p>
