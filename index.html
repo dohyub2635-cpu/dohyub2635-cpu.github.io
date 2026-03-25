@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연구실 홈페이지 | Lab Name</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Pretendard', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-blue-800">Energy & Thermal Lab</h1>
+            <div class="space-x-6">
+                <a href="#about" class="hover:text-blue-600">About</a>
+                <a href="#research" class="hover:text-blue-600">Research</a>
+                <a href="#publications" class="hover:text-blue-600">Publications</a>
+                <a href="#members" class="hover:text-blue-600">Members</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="about" class="bg-blue-900 text-white py-20 text-center">
+        <h2 class="text-4xl font-extrabold mb-4">Smart Thermal Management & CFD Analysis</h2>
+        <p class="text-xl text-blue-200">배터리 안전과 효율을 위한 혁신적인 열관리 솔루션을 연구합니다.</p>
+    </header>
+
+    <section id="research" class="max-w-6xl mx-auto py-16 px-4">
+        <h3 class="text-3xl font-bold mb-10 border-b-2 border-blue-800 pb-2">Research Areas</h3>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h4 class="text-xl font-bold mb-3 text-blue-700">BTMS (Battery Thermal Management)</h4>
+                <p class="text-gray-600">전기차 배터리의 성능 최적화와 열폭주 방지를 위한 냉각 시스템 및 상변화 물질(PCM) 활용 연구를 수행합니다.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h4 class="text-xl font-bold mb-3 text-blue-700">Computational Fluid Dynamics (CFD)</h4>
+                <p class="text-gray-600">복잡한 유체 흐름과 열전달 현상을 수치 해석적으로 모델링하여 최적의 설계를 제안합니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="bg-gray-100 py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h3 class="text-3xl font-bold mb-10 border-b-2 border-blue-800 pb-2">Selected Publications</h3>
+            <ul class="space-y-4">
+                <li class="bg-white p-4 rounded shadow-sm">
+                    <span class="font-bold text-blue-600">[2024]</span> <strong>"Numerical study on PCM-based cooling for high-power batteries"</strong>, Journal of Heat Transfer.
+                </li>
+                <li class="bg-white p-4 rounded shadow-sm">
+                    <span class="font-bold text-blue-600">[2023]</span> <strong>"CFD analysis of liquid cooling plates for EV applications"</strong>, International Journal of Energy Research.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-gray-400 py-8 text-center">
+        <p>&copy; 2026 Energy & Thermal Management Lab. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
